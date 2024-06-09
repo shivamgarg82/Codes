@@ -1,0 +1,88 @@
+<html>
+<head>
+<title>website</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="A.css">
+<style>
+.bt{
+  position: fixed;
+}
+  .u{
+    display: none;
+   
+  }
+  .d
+  {
+    background-color: ;
+    width: 100px;
+    height: 100px;
+  }
+  li{
+    list-style-type: none;
+    position: relative;
+    top: 20px;
+  }
+  #loader{
+    background: #000 url('2.jpg') no-repeat center center;
+    background-position-x: 10vh;
+    background-size: 30%;
+    height: 100vh;
+    width: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+  }
+  #car{
+    height: 50px;
+    width: 50px;
+    background-image: radial-gradient(red,white);
+    border-radius: 100%;
+  }
+</style>
+</head>
+<body>
+  <div id="loader"></div>
+  <div class="d">
+   <button class="bt">&#x2630;</button>
+   <ul class="u">
+     <li>Home</li>
+     <li>Contact</li>
+     <li>Help</li>
+   </ul>
+   </div>
+   
+     <div id="car"></div>
+   <div class="box">
+   <div class="boxx">
+   <div class="boxx__red"></div>
+   <div class="boxx__yellow"></div>
+   <div class="boxx__green"></div>
+  </div>
+    </div>
+    
+ <script>
+ //  const s=prompt("search any thing",100);
+  // const a=confirm("are you want xxx");
+//   alert(a);
+   
+   
+   let btn=document.querySelector(' .bt');
+   let ul=document.querySelector(' .u');
+   
+   btn.addEventListener('click', function my(){
+    if(ul.style.display=="block"){
+      ul.style.display="none";
+    }
+    else{
+      ul.style.display="block";
+    }
+   });
+   
+   var loader=document.getElementById('loader');
+   window.addEventListener("load", function (){
+     loader.style.visibility="hidden";
+   });
+</script>
+</body>
+</html>
