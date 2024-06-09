@@ -1,0 +1,176 @@
+body{
+  margin: 0 0 0 0;
+  position: relative;
+}
+.first{
+  height: 400px;
+  width: 100%;
+  background-color: yellow;
+  position: relative;
+
+}
+.first__img{
+  height: 450px;
+  width: 600px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-box-shadow: -10px -10px 10px black;
+}
+.first__right{
+  height: 400px;
+  width: 70%;
+  background-color: black;
+  color: white;
+  position: absolute;
+  left: 500px;
+  font-size: 20px;
+  padding-left: 59px;
+}
+.second__h{
+  text-align: center;
+  font-size: 40px;
+}
+.second__card{
+  height: 400px;
+  width: 300px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  font-size: 20px;
+  box-shadow: -2px 2px 10px 10px black;
+}
+.second{ 
+  display: flex;
+  justify-content: space-around;
+}
+.second__h:first-line{
+  text-shadow: 0 0 10px yellow;
+}
+.third{
+  height: 600px;
+  width: 100%;
+  background-color: #ea6;
+}
+.third__a {
+  display: flex;
+  flex-wrap: no-wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: flex-start;
+  
+}
+.third__h{
+  text-align: center;
+  padding-top: 20px;
+  font-size: 50px;
+}
+.third__o{
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  background-color: #eee;
+  margin-left: 20px;
+  margin-top: 150px;
+}
+.f{
+  margin-top: 100px;
+
+}
+.f__h{
+  text-align: center;
+  
+}
+.f__a{
+  display: flex;
+  justify-content: space-around;
+  align-items: space-around;
+  align-content: space-around;
+}
+.f__i{
+  height: 200px;
+  width: 200px;
+  background-image: url("flower.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #e91;
+  border: 2px solid green;
+  transition: height 2s, transform 2s;
+  transition-timing-function: ease;
+}
+.f__i:hover{
+  background-image: url('moonlight.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: translate(0,-200px);
+  }
+.five{
+  height: 600px;
+  width: 100%;
+  border: 2px solid;
+  margin-top: 100px;
+  position: relative;
+}
+.five__l{
+  position: absolute;
+  width: 500px;
+  margin-top: 0;
+  padding-left: 30px;
+  background-color: #d92;
+}
+.five__l__c{
+  height: 600px;
+  width: 400px;
+}
+.five__r{
+  height: 560px;
+  width: 910px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  left: 530px;
+  top: 0;
+  font-size: 20px;
+  padding-left: 40px;
+  padding-top: 40px;
+}
+input{
+  background-color: white;
+  width: 800px;
+  height: 50px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+textarea{
+  background-color: white;
+  width: 800px;
+  height: 150px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+button{
+  color: white;
+  background-color: #1ae;
+  width: 800px;
+  height: 50px;
+  font-size: 30px;
+}
+footer{
+  height: 400px;
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  position: relative;
+}
+li{
+  list-style-type: none;
+  padding-top: 10px;
+  cursor: pointer;
+}
+.a__i{
+  height: 200px;
+  width: 200px;
+  padding-top: 200px;
+  }
