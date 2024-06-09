@@ -1,0 +1,131 @@
+*{
+  background-color: #edd;
+}
+body{
+  position: relative;
+  }
+  .box{
+     height: 300px;
+     width: 280px;
+     border-radius: 20px;
+    background-color: green;
+    position: relative;
+    margin: 100px 50px 100px 50px;
+}
+.boxx{
+  height: 200px;
+  width: 70px;
+  background-color: #ecc;
+  border-radius: 30px;
+  position: relative;
+  top: 40px;
+  left: 100px;
+}
+#car{
+  position: relative;
+  top: 110px;
+  left: 20px;
+  animation-name: car;
+  animation-duration: 3s;
+  animation-iteration-count: 1000;
+  animation-direction: ;
+  animation-timing-function: linear;
+  animation-delay: 3s;
+  animation-play-state: pause;
+  
+}
+.box:hover #car{
+  animation-play-state: running;
+}
+.boxx__red{
+  height: 40px;
+  width: 40px;
+  box-shadow: inset 0 0 10px 4px #fc0303;
+  border-radius: 100%;
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  animation-name: re;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-timing-function: linear;
+}
+.boxx__yellow{
+  height: 40px;
+  width: 40px;
+  box-shadow: inset 0 0 10px 4px yellow;
+  border-radius: 100%;
+  position: absolute;
+  top: 80px;
+  left: 15px;
+  animation-name: yellowlight;
+  animation-duration: 2s;
+}
+.boxx__green{
+  height: 40px;
+  width: 40px;
+  box-shadow: inset 0 0 10px 4px green;
+  border-radius: 100%;
+  position: absolute;
+  top: 150px;
+  left: 15px;
+}
+
+@keyframes car{
+  0%{
+    left: 20px;
+    top: 110px;
+    transform: rotate(0deg);
+  }
+  24.99%{
+    left: 300px;
+    top: 110px;
+    transform: rotate(0deg);
+  }
+  25%{
+    left: 320px;
+    top: 110px;
+    transform: rotate(90deg);
+  }
+  49.9%{
+     left: 320px;
+     top: 450px;
+     transform: rotate(90deg);
+  }
+  50%{
+     left: 320px;
+     top: 450px;
+     transform: rotate(180deg);
+  }
+  74.9%{
+     left: 5px;
+     top: 450px;
+     transform: rotate(180deg);
+  }
+   75%{
+     left: 0;
+     top: 450px;
+     transform: rotate(270deg);
+  }
+    100%{
+     left: 0;
+     top: 110px;
+     transform: rotate(300deg);
+}
+@keyframes re{
+  0%{
+     box-shadow: inset 0 0 0px 30px red;
+  }
+  100%{
+    box-shadow: 0 0 0 30px green;
+  }
+}
+@keyframes yellowlight{
+  0%{
+    box-shadow: inset 0 0 10px 4px yellow;
+  }
+  100%{
+    box-shadow: inset 0 0 0 0 yellow;
+  }
+  
+}
