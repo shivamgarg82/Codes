@@ -1,0 +1,84 @@
+
+a:link
+{
+  color:green;
+}
+  a:hover
+  {
+    color:blue;
+    font-size: 50px;
+    background-color: yellow;
+  }
+  a:active
+  {
+    color:purple;
+  }
+  a:visited
+  {
+    color:red;
+  }
+  h1 {
+    text-align: center;
+    text-decoration: underline;
+  }
+  h2{
+    text-align: center;
+    color:purple;
+    text-decoration: underline;
+  }
+  table,th{
+    border-radius: 50px;
+    border-left-width: 10px;
+    border-top-width: 10px;
+    border-left-color: yellow;
+    border-right-color: red;
+    border-top-color: green;
+    border-bottom-color: blue;
+    border-collapse: ;
+    padding-left: 10px;
+    padding-right: 11px;
+    padding-top: 2px;
+    padding-bottom: 1px;
+    text-align: left;
+  }
+    th:nth-child(even),td:nth-child(even){
+      background-color: #D6EEEE;
+    }
+  th:nth-child(odd){
+    color: ;
+  }
+  button{
+    text-decoration: inline;
+    padding: 10px;
+    border-radius: 60px;
+    border-width: 10px;
+  }
+  .container{
+    color: red;
+    border: 1px solid yellow;
+  }
+  .my{
+    display: grid ;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: underline;
+    
+    border: 2px solid black;
+    border-radius: 30px;
+  }
+  input{
+    border-radius: 50px;
+    margin: 60px;
+    border-block-color: red;
+  }
+  ::-webkit-scrollbar{
+    background-color: red;
+    width: 20px;
+  }
+  ::-webkit-scrollbar-track{
+    background-color: green;
+  }
+
+ 
+  
